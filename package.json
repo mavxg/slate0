@@ -28,5 +28,8 @@
   "homepage": "https://github.com/mavxg/slate0",
   "dependencies": {
     "ot-slate0": "git://github.com/mavxg/ot-slate0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1"
   }
 }
