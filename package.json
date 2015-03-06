@@ -1,0 +1,32 @@
+{
+  "name": "slate0",
+  "version": "0.0.1",
+  "description": "Document model for operational transform based editor SlateJS",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mavxg/slate0.git"
+  },
+  "keywords": [
+    "SlateJS",
+    "Operational",
+    "Transform",
+    "Document",
+    "Model"
+  ],
+  "author": "Benjamin Norrington <ben@norrington.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mavxg/slate0/issues"
+  },
+  "homepage": "https://github.com/mavxg/slate0",
+  "dependencies": {
+    "ot-slate0": "git://github.com/mavxg/ot-slate0"
+  }
+}
