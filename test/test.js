@@ -80,6 +80,20 @@ describe('Apply', function() {
 	});
 });
 
+describe('From JSON', function() {
+	var doc = new m.Document(1,[new 
+		m.Section(2,[
+			new m.P(4,["This is some text."],
+				{note:"A note attached to the paragraph."})]), 
+		new m.Section(3,[])], {note:"A note attached to the document."});
+
+	it('Can deserialise from JSON', function(){
+		var json = JSON.stringify(doc);
+		var docD = m.fromJSON(JSON.parse(json));
+		assert.equal(json, JSON.stringify(docD));
+		assert.equal(doc.length, docD.length);
+	});
+});
 
 describe('Cursor', function() {
 	/*
