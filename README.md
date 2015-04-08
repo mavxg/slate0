@@ -16,7 +16,7 @@ Document model for operational transform based editor SlateJS
 
 # TODO
 
-* [ ] Add move operation
+* [ ] Add move operation ({cut:n, a:label},...,{paste:n, ref:label})
 * [ ] Zero width refs (idea, can we use inital offset as ref label to make compose trivial?)
 * [ ] Reinstate Attribute class
 * [ ] Ensure ids not sent in operation (except create)
